@@ -53,16 +53,16 @@ export default function Resume() {
         >
           <div>
             <h3 style={{ fontSize: 24, color: "#00b4ff", marginBottom: 4 }}>
-              👨‍💻 KUNJ D. DESAI
+              👨‍💻 VENKATESWARAN A
             </h3>
             <p style={{ margintop: 10, fontSize: 15, color: "#ccc" }}>
-              4th Year B.Tech — AI & Data Science | S.C.E.T, Sarvajanik University
+              3rd Year B.E — Computer Science Engineering | A.U, A University
             </p>
             <p style={{ margin: "4px 0", fontSize: 14, color: "#aaa" }}>
-              📍 Jahangirpura, Surat, Gujarat
+              📍 Kelambakkam, Chennai, Tamilnadu
             </p>
             <p style={{ margin: "4px 0", fontSize: 14, color: "#aaa" }}>
-              ✉️ kunjd2803@gmail.com | 📞 +91 8758209508
+              ✉️ venkateswaranarofficial@gmail.com | 📞 +91 9043651185
             </p>
           </div>
 
@@ -80,7 +80,7 @@ export default function Resume() {
           >
             <strong style={{ color: "#00b4ff" }}>Professional Summary:</strong>
             <p style={{ marginTop: 6, color: "#ccc" }}>
-              4th-year B.Tech AI student experienced in ML, DL, and computer vision.
+              3rd-year B.E Computer Science Engineering student experienced in DSA, FullStack, and computer vision.
               Skilled in Python, TensorFlow, PyTorch, and Scikit-learn. Passionate about
               building impactful AI systems and seeking opportunities to contribute to
               real-world AI projects.
@@ -106,19 +106,19 @@ export default function Resume() {
           </h4>
           <ul style={{ listStyle: "none", padding: 0, margin: 0, lineHeight: 1.8 }}>
             <li>
-              <strong>B.Tech in Artificial Intelligence & Data Science</strong> — S.C.E.T
-              (Sarvajanik University), 2022–2026 <br />
-              <span style={{ color: "#aaa" }}>GPA: 9.0</span>
+              <strong>B.E Computer Science And Engineering</strong> — A.U
+              (Anna University), 2023–2027 <br />
+              <span style={{ color: "#aaa" }}>GPA: 8.27</span>
             </li>
             <li style={{ marginTop: 8 }}>
-              <strong>12th Board — R.S.M. Poonawala Experimental School</strong> (Gujarat
-              Board, 2022) <br />
-              <span style={{ color: "#aaa" }}>Percentage: 78%</span>
+              <strong>12th Board — St, Mary's Higher Secondary School</strong> (State
+              Board, 2021) <br />
+              <span style={{ color: "#aaa" }}>Percentage: 66%</span>
             </li>
             <li style={{ marginTop: 8 }}>
-              <strong>10th Board — Ambika Niketan School</strong> (Gujarat Board, 2020)
+              <strong>10th Board — St, Mary's Higher Secondary School</strong> (State Board, 2019)
               <br />
-              <span style={{ color: "#aaa" }}>Percentage: 85%</span>
+              <span style={{ color: "#aaa" }}>Percentage: 100%</span>
             </li>
           </ul>
         </motion.div>
@@ -132,10 +132,8 @@ export default function Resume() {
         >
           <h4 style={{ fontSize: 20, color: "#00b4ff", marginBottom: 12 }}>💼 Projects</h4>
           <ul style={{ listStyle: "none", padding: 0, margin: 0, lineHeight: 1.8 }}>
-            <li>1️⃣ Breast Cancer Detection from Mammograms using YOLO & CNN</li>
-            <li>2️⃣ DocuChat: Document Q&A Chatbot (Gemini API)</li>
-            <li>3️⃣ Indian Sign Language Interpreter (In Progress)</li>
-            <li>4️⃣ Mental Health Analyzer</li>
+            <li>1️⃣ Gaming Website </li>
+            <li>2️⃣ Waste Wise Management </li>
           </ul>
         </motion.div>
 
@@ -198,9 +196,8 @@ export default function Resume() {
           }}
         >
           {[
-            { name: "🏆 LeetCode", link: "https://leetcode.com/u/Kunj_2803/" },
-            { name: "💻 GitHub", link: "https://github.com/kunj2803" },
-            { name: "💼 LinkedIn", link: "https://www.linkedin.com/in/kunj-desai-07717b293/" },
+            { name: "💻 GitHub", link: "https://github.com/venkateswaranar2006" },
+            { name: "💼 LinkedIn", link: "http://www.linkedin.com/in/venkateswaranarofficial" },
           ].map((site) => (
             <motion.a
               key={site.name}
