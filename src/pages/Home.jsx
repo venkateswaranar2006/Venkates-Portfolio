@@ -13,19 +13,19 @@ import facebookLogo from '../../public/facebook.png'
 export default function Home() {
   const professions = [
     'AI Enthusiast',
-    'Machine Learning Engineer',
-    "Deep Learning Expert",
+    'Software Engineer',
+    "Full Stack Developer",
     'Computer Vision Researcher',
     'Developer',
   ]
 
   const quickLinks = [
-    { img: githubLogo, title: 'GitHub', link: 'https://github.com/kunj2803' },
-    { img: linkedinLogo, title: 'LinkedIn', link: 'https://www.linkedin.com/in/kunj-desai-07717b293/' },
-    { img: gmailLogo, title: 'Email', link: 'kunjd2803@gmail.com' },
-    { img: whatsappLogo, title: 'WhatsApp', link: 'https://wa.me/+918758209508' },
-    { img: instagramLogo, title: 'Instagram', link: 'https://www.instagram.com/kunj_2834/' },
-    { img: facebookLogo, title: 'Facebook', link: 'https://www.facebook.com/kunj.desai.222608' },
+    { img: githubLogo, title: 'GitHub', link: 'https://github.com/venkateswaranar2006' },
+    { img: linkedinLogo, title: 'LinkedIn', link: 'http://www.linkedin.com/in/venkateswaranarofficial' },
+    { img: gmailLogo, title: 'Email', link: 'venkateswaranarofficial@gmail.com' },
+    { img: whatsappLogo, title: 'WhatsApp', link: 'https://wa.me/+919043651185' },
+    { img: instagramLogo, title: 'Instagram', link: 'https://www.instagram.com/naan_venkateswaran/' },
+    { img: facebookLogo, title: 'YouTube', link: 'https://youtube.com/@true_incident006.?si=VTYG73UzbQuHdw82' },
   ]
 
   return (
@@ -116,7 +116,7 @@ export default function Home() {
           >
             <motion.img
               src={photo}
-              alt="Kunj Desai"
+              alt="Venkateswaran A"
               initial={{ scale: 0.8, opacity: 0 }}
               animate={{ scale: 1, opacity: 1 }}
               transition={{ duration: 1 }}
@@ -163,7 +163,7 @@ export default function Home() {
                 backgroundSize: '200%',
               }}
             >
-              Kunj Desai
+              VENKATESWARAN A
             </motion.span>
           </h1>
 
@@ -177,7 +177,7 @@ export default function Home() {
               maxWidth: '95%',
             }}
           >
-          Aritificial Intellegence Engineer | Frontend Developer | Tech Explorer
+          Software Engineer | Full Stack Developer | Tech Explorer
           </p>
 
           {/* --- Profession Tags --- */}
@@ -228,9 +228,9 @@ export default function Home() {
             }}
           >
             {[ 
-              { label: '📍 Location', value: 'Surat,Gujrat,India' },
-              { label: '💼 Expertise', value: 'AI/ML,Problem solving' },
-              { label: '📧 Contact', value: 'kunjd2803@gmail.com' },
+              { label: '📍 Location', value: 'Chennai,Tamilnadu,India' },
+              { label: '💼 Expertise', value: 'Fullstack/DSA,Problem solving' },
+              { label: '📧 Contact', value: 'venkateswaranarofficial@gmail.com' },
             ].map((info, i) => (
               <motion.div
                 key={i}
